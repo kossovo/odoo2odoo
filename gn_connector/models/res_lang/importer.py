@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
+
+from odoo.addons.component.core import Component
+
+
+class LangImporter(Component):
+    _name = 'odoo.res.lang.importer'
+    _inherit= 'odoo.auto.matching.importer'
+    _apply_on = 'odoo.res.lang'
+
+    _local_field = 'code'
+    _distant_field = 'code'
+    _copy_fields = [
+        ('active', 'active'),
+    ]
+
+    def _compare_function(self, distant_val, local_val, distant_dict, local_dict):
+        if len(local_val) >= 2 and len(distant_val) >= 2 and \
+                local_val[0:2].lower() == distant_val[0:2].lower():
+            return True
+        return False

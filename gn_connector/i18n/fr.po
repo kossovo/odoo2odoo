@@ -1,0 +1,3153 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* gn_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-02 13:37+0000\n"
+"PO-Revision-Date: 2019-01-02 15:12+0100\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_product_variant_count
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_product_variant_count
+msgid "# Product Variants"
+msgstr "# Variantes d'articles"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_product_count
+msgid "# Products"
+msgstr "Nb. produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sales_count
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sales_count
+msgid "# Sales"
+msgstr "Nb Ventes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_contract_count
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_archive_count
+msgid "# contract"
+msgstr "Nb. de contrats"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_sale_order_count
+msgid "# of Sales Order"
+msgstr "N° de la commande"
+
+#. module: gn_connector
+#: sql_constraint:odoo.simple.delivery:0
+msgid "A Distant Odoo bingding for this delivery already exists."
+msgstr "A Distant Odoo bingding for this delivery already exists."
+
+#. module: gn_connector
+#: sql_constraint:odoo.simple.delivery.line:0
+msgid "A Distant Odoo bingding for this delivery line already exists."
+msgstr "A Distant Odoo bingding for this delivery line already exists."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_description_sale
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_description_sale
+msgid "A description of the Product that you want to communicate to your customers. This description will be copied to every Sales Order, Delivery Order and Customer Invoice/Credit Note"
+msgstr "Une description du produit que vous souhaitez communiquer à vos clients. Cette description sera copiée sur chaque commande client, bon de livraison et avoir/facture client"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_description_purchase
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_description_purchase
+msgid "A description of the Product that you want to communicate to your vendors. This description will be copied to every Purchase Order, Receipt and Vendor Bill/Credit Note."
+msgstr "Une description du produit que vous souhaitez communiquer à vos fournisseurs. Cette description sera copiée sur chaque commande fournisseur, facture et avoir/facture fournisseur."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_description
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_description
+msgid "A precise description of the Product, used only for internal information purposes."
+msgstr "Une description précise du produit uniquement utilisée en interne."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_type
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_type
+msgid ""
+"A stockable product is a product for which you manage stock. The \"Inventory\" app has to be installed.\n"
+"A consumable product, on the other hand, is a product for which stock is not managed.\n"
+"A service is a non-material product you provide.\n"
+"A digital content is a non-material product you sell online. The files attached to the products are the one that are sold on the e-commerce such as e-books, music, pictures,... The \"Digital Product\" module has to be installed."
+msgstr ""
+"Un produit « stockable » est un produit pour lequel vous désirez gérer le stock. L'application « Inventaire » doit être installée.\n"
+"Un produit « consommable », en revanche, est un produit non géré en stock.\n"
+"Un service est un bien immatériel que vous fournissez ou achetez.\n"
+"Un contenu numérique est un bien immatériel que vous vendez en ligne. Les fichier liés aux produits sont ceux vendu sur la boutique en ligne (livres électronique, musique, photos, …). Le module « Produits numériques » doit être installé."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_ADELI
+msgid "ADELI number"
+msgstr "Numéro ADELI"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_account_payable_id
+msgid "Account Payable"
+msgstr "Compte fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Compte client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_needaction
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_needaction
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_needaction
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_needaction
+msgid "Action Needed"
+msgstr "Nécessite une action"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_active
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_active
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_active
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_active
+msgid "Active"
+msgstr "Actif/ve"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_ids
+msgid "Activities"
+msgstr "Activités"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_code_prefix
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_code_prefix
+msgid "Add prefix to product variant reference (default code)"
+msgstr "Ajouter un préfixe à la référence de la variante de produit (default code)"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_type
+msgid "Address Type"
+msgstr "Type d'adresse"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_resource_id
+msgid "Advisor Partner"
+msgstr "Conseillère"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_caution_amount
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_caution_amount
+msgid "Amount of the caution that will be requested at the start of the location."
+msgstr "Montant de la caution qui sera demandé au démarrage de la location."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_contract_line_ids
+msgid "Associated contract lines"
+msgstr "Lignes de contrat liées"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_attachment_id
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_attribute_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_attribute_id
+msgid "Attribute"
+msgstr "Attribut"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_code
+msgid "Attribute Code"
+msgstr "Code de l'attribut"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_price_extra
+msgid "Attribute Price Extra"
+msgstr "Supplément pour cette caractéristique  "
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_price_ids
+msgid "Attribute Prices"
+msgstr "Prix des caractéristique"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_code
+msgid "Attribute Value Code"
+msgstr "Code valeur de l'attribut"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_value_ids
+msgid "Attribute Values"
+msgstr "Valeurs de caractéristique"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_attribute_value_ids
+msgid "Attributes"
+msgstr "Caractéristiques"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_immediately_usable_qty
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_immediately_usable_qty
+msgid "Available to promise"
+msgstr "Disponible"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_bank_account_count
+msgid "Bank"
+msgstr "Banque"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_bank_ids
+msgid "Banks"
+msgstr "Banques"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_barcode
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_barcode
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_barcode
+msgid "Barcode"
+msgstr "Code-barres"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_list_price
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_list_price
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_lst_price
+msgid "Base price to compute the customer price. Sometimes called the catalog price."
+msgstr "Prix de base pour calculer le prix client. Parfois appelé prix catalogue."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_nb_bed
+msgid "Bed's Number"
+msgstr "Nombre de lits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image
+msgid "Big-sized image"
+msgstr "Image de grande taille"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_factor_inv
+msgid "Bigger Ratio"
+msgstr "Ratio supérieur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_birthday
+msgid "Birthday"
+msgstr "Anniversaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_bounce
+msgid "Bounce"
+msgstr "Rebond"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_product_brand_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_product_brand_id
+msgid "Brand"
+msgstr "Marque"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_name
+msgid "Brand Name"
+msgstr "Marque"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_product_ids
+msgid "Brand Products"
+msgstr "Marques de produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_odoo_id
+msgid "Breast Pump"
+msgstr "Tire-lait"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_breast_pump
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_breast_pump_id
+msgid "Breast pump"
+msgstr "Tire-lait"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_purchase_ok
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_purchase_ok
+msgid "Can be Purchased"
+msgstr "Peut être acheté"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_rental
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_rental
+msgid "Can be Rent"
+msgstr "Peut être loué"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sale_ok
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sale_ok
+msgid "Can be Sold"
+msgstr "Peut être vendu"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_delivery_carrier
+msgid "Carrier"
+msgstr "Transporteur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_category_id
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_description_category
+msgid "Category Description"
+msgstr "Description de la catégorie"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_route_from_categ_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_route_from_categ_ids
+msgid "Category Routes"
+msgstr "Catégorie de route"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_caution_amount
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_caution_amount
+msgid "Caution amount"
+msgstr "Montant de la caution"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_cegedim
+msgid "Cegedim"
+msgstr "Cegedim"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_channel_ids
+msgid "Channels"
+msgstr "Canaux"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_check_amount
+msgid "Check amount"
+msgstr "Montant du chèque"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Cochez si ce contact est une société, sinon il s'agit d'un particulier"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_customer
+msgid "Check this box if this contact is a customer."
+msgstr "Cochez cette case si le contact est un client."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_manufacturer
+msgid "Check this box if this contact is a manufacturer."
+msgstr "Cochez cette case si le contact est un fabricant."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_supplier
+msgid "Check this box if this contact is a vendor. If it's not checked, purchase people will not see it when encoding a purchase order."
+msgstr "Cocher cette case si ce contact est un fournisseur. Si elle n'est pas cochée, les acheteurs ne le verront pas lors de la saisie d'un ordre d'achat."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Cochez cette case si ce contact est un employé."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_attribute_create_variant
+msgid "Check this if you want to create multiple variants for this attribute."
+msgstr "Cochez ceci si vous souhaitez définir plusieurs variantes pour cet attribut."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_child_id
+msgid "Child Categories"
+msgstr "Catégories enfants"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_relais_id
+msgid "Choix de point-relais"
+msgstr "Choix de point-relais"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_city
+msgid "City"
+msgstr "Ville"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_color
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_color
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_color
+msgid "Color Index"
+msgstr "Index de la couleur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_comments
+msgid "Comments"
+msgstr "Commentaires"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entité commerciale"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_compact_breast_pump
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_compact_breast_pump
+msgid "Compact"
+msgstr "Compact"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Sociétés qui font référence au partenaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_company_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_company_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_company_id
+msgid "Company"
+msgstr "Société"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_company_name
+msgid "Company Name"
+msgstr "Nom de la société"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nom commercial de la société"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_company_type
+msgid "Company Type"
+msgstr "Type de société"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_company_stat
+msgid "Company statistics"
+msgstr "Company statistics"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_contact_address
+msgid "Complete Address"
+msgstr "Adresse complète"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_complete_name
+msgid "Complete Name"
+msgstr "Nom Complet"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_contact_type
+msgid "Contact Type"
+msgstr "Type"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_child_ids
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_contract_id
+msgid "Contract"
+msgstr "Contrat"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_contract_report
+msgid "Contract report"
+msgstr "Rapport du contrat"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_contract_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_contracts_count
+msgid "Contracts"
+msgstr "Contrats"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_uom_category_id
+msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
+msgstr "Il est possible de convertir deux unités de mesures si elles appartiennent à la même catégorie. Cette conversion utilise les rapports définis pour ces unités."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_standard_price
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_standard_price
+msgid "Cost"
+msgstr "Coût"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_cost_method
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_cost_method
+msgid "Cost Method"
+msgstr "Méthode de détermination du coût des stocks"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_standard_price
+msgid "Cost used for stock valuation in standard price and as a first price to set in average/fifo. Also used as a base price for pricelists. Expressed in the default unit of measure of the product."
+msgstr "Coût utilisé pour la valorisation des stocks au tarif standard et en tant que premier prix pour définir la moyenne/FIFO. Également utilisé comme prix de base pour les listes. Exprimé dans l'unité de mesure par défaut du produit."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_standard_price
+msgid "Cost used for stock valuation in standard price and as a first price to set in average/fifo. Also used as a base price for pricelists. Expressed in the default unit of measure of the product. "
+msgstr "Coût utilisé pour la valorisation des stocks au tarif standard et en tant que premier prix pour définir la moyenne/FIFO. Également utilisé comme prix de base pour les listes. Exprimé dans l'unité de mesure par défaut du produit."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_cost_method
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_cost_method
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_cost_method
+msgid "Costing Method"
+msgstr "Méthode de coût"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_payment_token_count
+msgid "Count Payment Token"
+msgstr "Nombre de méthodes de paiement"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Le compteur du nombre de mails rejetés pour ce contact"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_commercial_partner_country_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_country_id
+msgid "Country"
+msgstr "Pays"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_create_variant
+msgid "Create Variant"
+msgstr "Créer une variante"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_create_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_create_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_credit_limit
+msgid "Credit Limit"
+msgstr "Limite de crédit"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_currency_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_currency_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_currency_id
+msgid "Currency"
+msgstr "Devise"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_current_mom
+msgid "Current mom"
+msgstr "Maman actuelle"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_qty_available
+msgid ""
+"Current quantity of products.\n"
+"In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+"Quantité actuelle d'articles en stock.\n"
+"Dans le contexte d'un seul emplacement de stock, ceci inclue les marchandises stockées dans cet emplacement et ses enfants.\n"
+"Dans le contexte d'un seul entrepôt, ceci inclue les marchandises stockées dans l'emplacement de l'entrepôt et ses enfants.\n"
+"Dans le contexte d'un magasin, ceci inclue les marchandises stockées dans l'entrepôt de ce magasin et ses enfants.\n"
+"Dans les autres contextes, ceci inclue les marchandises stockées dans n'importe quel emplacement de type 'interne'."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_partner_id
+msgid "Customer"
+msgstr "Client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sale_delay
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sale_delay
+msgid "Customer Lead Time"
+msgstr "Délai de livraison au client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_stock_customer
+msgid "Customer Location"
+msgstr "Emplacement Client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_customer_payment_mode_id
+msgid "Customer Payment Mode"
+msgstr "Mode de paiement client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Conditions de Paiement Client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_partner_ref
+msgid "Customer Ref"
+msgstr "Réf. client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_taxes_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_taxes_id
+msgid "Customer Taxes"
+msgstr "Taxes à la vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_date
+msgid "Date"
+msgstr "Date "
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_message_last_post
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_message_last_post
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_message_last_post
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_last_post
+msgid "Date of the last message posted on the record."
+msgstr "Date du dernier message publié sur cet enregistrement"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_uom_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_uom_id
+msgid "Default Unit of Measure used for all stock operation."
+msgstr "Unité de mesure par défaut utilisée pour toutes les opérations de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_uom_po_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_uom_po_id
+msgid "Default Unit of Measure used for purchase orders. It must be in the same category than the default unit of measure."
+msgstr "Unité de mesure par défaut pour les ordres d'achat. Elle doit appartenir à la même catégorie que l'unité de mesure par défaut."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_degree
+msgid "Degree"
+msgstr "Diplôme"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Niveau de confiance que vous avez avec ce débiteur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_delivery_carrier_id
+msgid "Delivery Method"
+msgstr "Méthode de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_delivery_lines
+msgid "Delivery lines"
+msgstr "Lignes de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_department_id
+msgid "Department"
+msgstr "Département"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_route_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_route_ids
+msgid "Depending on the modules installed, this will allow you to define the route of the product: whether it will be bought, manufactured, MTO/MTS,..."
+msgstr "En fonction des modules installés, ceci vous permet de définir la route de l'article : s'il doit être acheté ou produit, produit sur stock ou la demande, ..."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_description
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description
+msgid "Description"
+msgstr "Description"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_description_category
+msgid "Description category"
+msgstr "Description de la catégorie"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description_pickingout
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description_pickingout
+msgid "Description on Delivery Orders"
+msgstr "Description pour les bons de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description_picking
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description_picking
+msgid "Description on Picking"
+msgstr "Description du prélèvement"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description_pickingin
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description_pickingin
+msgid "Description on Receptions"
+msgstr "Description pour les réceptions"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_attribute_sequence
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_attribute_value_sequence
+msgid "Determine the display order"
+msgstr "Détermine l'ordre d'affichage"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_display_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_odoo_child_ids
+msgid "Distant Odoo Child Categories"
+msgstr "Catégories Odoo filles distantes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_odoo_parent_id
+msgid "Distant Odoo Parent Category"
+msgstr "Catégorie Odoo mère distante"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_educ_tool_ids
+msgid "Educ tools"
+msgstr "Outils pédagogiques"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_educ_tool_wanted
+msgid "Education tool wanted"
+msgstr "Outil pédagogique demandé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_educ_tool_id
+msgid "Educational tool"
+msgstr ""
+"Outil pédagogique\n"
+"\n"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_educ_tool_line_ids
+msgid "Educational tools"
+msgstr "Outils pédagogiques"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_partner_share
+msgid "Either customer (no user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
+msgstr "Client (pas un utilisateur) ou utilisateur partagé. Indique que le partenaire actuel est un client qui ne dispose pas d'accès ou qui dispose d'un accès limité pour le partage des données."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_email
+msgid "Email"
+msgstr "Courriel"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_engine_state
+msgid "Engine state"
+msgstr "État du moteur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_expected_date
+msgid "Expected date"
+msgstr "Date attendue"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_account_expense_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_account_expense_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_account_expense_id
+msgid "Expense Account"
+msgstr "Compte de dépenses"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_categ_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_categ_ids
+msgid "Extra categories"
+msgstr "Catégorie secondaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_finess
+msgid "FINESS Number"
+msgstr "Numéro FINESS"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_fax
+msgid "Fax"
+msgstr "Fax"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_features
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_features
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_extension
+msgid "File extension"
+msgstr "Extension du fichier"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_filename
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_firstname
+msgid "First name"
+msgstr "Prénom"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_account_position_id
+msgid "Fiscal Position"
+msgstr "Position Fiscale"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_follower_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_follower_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_follower_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_channel_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_channel_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_channel_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Abonnés (Canaux)"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_partner_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_partner_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_partner_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_removal_strategy_id
+msgid "Force Removal Strategy"
+msgstr "Forcer la stratégie d'enlèvement"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_virtual_available
+msgid "Forecast Quantity"
+msgstr "Quantité prévue"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_virtual_available
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+"Quantité prévue (calculée comme quantité en stock - sortante + entrante)\n"
+"Dans le contexte d'un emplacement de stock seul, cela comprend les marchandises stockées dans cet emplacement et ses enfants.\n"
+"Dans le contexte d'un entrepôt seul, cela comprend les marchandises stockées dans l'emplacement de stock de cet entrepôt et ses enfants.\n"
+"Dans les autres cas, cela comprend les marchandises stockées dans tous les emplacements de type \"interne\""
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_virtual_available
+msgid "Forecasted Quantity"
+msgstr "Quantité prévue"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Met en forme l'adresse email « Nom <email@domaine> »"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_email_formatted
+msgid "Formatted Email"
+msgstr "Courriel mis en forme"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_image_main
+msgid "Full-sized image"
+msgstr "Image en taille réelle"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_packaging_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_packaging_ids
+msgid "Gives the different ways to package the same product."
+msgstr "Indique les différentes façons d'emballer le même produit."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_sequence
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_sequence
+msgid "Gives the sequence order when displaying a product list"
+msgstr "Indique l'ordre d'affichage lorsqu'une liste d'articles est affichée."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_hs_code
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_hs_code
+msgid "HS Code"
+msgstr "Nomenclature douanière"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_has_checkpoint
+msgid "Has Checkpoint"
+msgstr "A un point de contrôle"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "Présente des écritures non rapprochées"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_uom_factor_inv
+msgid "How many times this Unit of Measure is bigger than the reference Unit of Measure in this category: 1 * (this unit) = ratio * (reference unit)"
+msgstr "Combien de fois cette unité de mesure est plus grande que l'unité de mesure de référence de cette catégorie : 1 x (cette unité) = ratio x (unité de référence)"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_uom_factor
+msgid "How much bigger or smaller this unit is compared to the reference Unit of Measure for this category: 1 * (reference unit) = ratio * (this unit)"
+msgstr "Combien de fois cette unité est plus petite ou plus grande que l'unité de mesure de référence de cette catégorie : 1 x (unité de référence) = ratio x (cette unité)"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_ihab
+msgid "IHAB"
+msgstr "IHAB"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_im_status
+msgid "IM Status"
+msgstr "Statut de messagerie instantanée"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_message_unread
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_message_unread
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_message_unread
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_message_needaction
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_message_needaction
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_message_needaction
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, de nouveaux messages demandent votre attention."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_followup_breast_pump
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_followup_breast_pump
+msgid "If checked, this breast pump model will be considered as a follow-up model."
+msgstr "Si cochée, ce modèle de tire-lait sera considéré comme un modèle « à suivre »."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_breast_pump
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_breast_pump
+msgid "If checked, this product will be considered as a breast pump model."
+msgstr "Si cochée, cet article sera considéré comme un modèle de tire-lait."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_opt_out
+msgid "If opt-out is checked, this contact has refused to receive emails for mass mailing and marketing campaign. Filter 'Available for Mass Mailing' allows users to filter the partners when performing mass mailing."
+msgstr "Si l’option de retrait est cochée, ce contact a refusé de recevoir des e-mails pour l'envoi de masse et de la campagne de commercialisation. Le filtre « Disponible pour l'envoi de masse » permet aux utilisateurs de filtrer les partenaires lors de l'exécution de l'envoi de masse"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_team_id
+msgid "If set, this sales channel will be used for sales and assignations related to this partner"
+msgstr "Si défini, ce canal de vente sera utilisé pour les ventes et les attributions associées à ce partenaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_lang
+msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
+msgstr "Si la langue sélectionnée est chargée dans le système, tous les documents de ce contact seront imprimés dans cette langue. Dans le cas contraire, ils le seront en anglais."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_active
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_active
+msgid "If unchecked, it will allow you to hide the product without removing it."
+msgstr "En décochant cette case, il est possible de masquer l'article sans le supprimer."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_base_multi_image_image_product_variant_ids
+msgid "If you leave it empty, all variants will show this image. Selecting one or several of the available variants, you restrict the availability of the image to those variants."
+msgstr "Si vous laissez vide, toutes les variantes afficheront ces images. En sélectionnant une ou plusieurs variantes disponibles, vous restreindrez l'affichage de cette image dans ces variantes."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_odoo_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_image
+msgid "Image"
+msgstr "Image"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_image
+msgid "Image of the product variant (Big-sized image of product template if false). It is automatically resized as a 1024x1024px image, with aspect ratio preserved."
+msgstr "Image de la variante d'article (si  non renseigné, image de grandes dimensions du modèle d'article). Automatiquement redimensionné en image de 1024x1024px, en conservant les proportions."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_image_medium
+msgid "Image of the product variant (Medium-sized image of product template if false)."
+msgstr "Image de la variante d'article (si non renseigné, image de dimensions moyennes du modèle d'article)"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_image_small
+msgid "Image of the product variant (Small-sized image of product template if false)."
+msgstr "Image de la variante d'article (si non renseigné, image de petites dimensions du modèle d'article)"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_path
+#: model:ir.model.fields,help:gn_connector.field_odoo_base_multi_image_image_path
+msgid "Image path"
+msgstr "Chemin de l'image"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_url
+msgid "Image remote URL"
+msgstr "URL distante de l'image"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_file_db_store
+msgid "Image stored in database"
+msgstr "Image enregistrée dans la base de données"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_name
+msgid "Image title"
+msgstr "Titre de l'image"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_ids
+msgid "Images"
+msgstr "Images"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_attr_line_from_date
+msgid "Import Product Attribute Line from date"
+msgstr "Importer les variantes de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_attr_value_from_date
+msgid "Import Product Attribute Value from date"
+msgstr "Importer les valeurs d'attributes depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_attribute_from_date
+msgid "Import Product Attributes from date"
+msgstr "Importer les attributs de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_brand_from_date
+msgid "Import Product Brand from date"
+msgstr "Importer les marques de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_categ_from_date
+msgid "Import Product Category from date"
+msgstr "Importer les catégories de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_template_from_date
+msgid "Import Product Template from date"
+msgstr "Importer les modèles de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_product_from_date
+msgid "Import Product from date"
+msgstr "Importer les produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_image_from_date
+msgid "Import Product image from date"
+msgstr "Importer les images de produits depuis le"
+
+#. module: gn_connector
+#: model:ir.ui.view,arch_db:gn_connector.gn_odoo_backend_form_view
+msgid "Import Products since"
+msgstr "Importer les produits depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_simple_delivery_from_date
+msgid "Import Simple Delivery from date"
+msgstr "Importer les livraisons depuis le"
+
+#. module: gn_connector
+#: model:ir.ui.view,arch_db:gn_connector.gn_odoo_backend_form_view
+msgid "Import Simple delivery since"
+msgstr "Importer les livraisons depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_uom_categ_from_date
+msgid "Import UoM Categ from date"
+msgstr "Importer les catégories d'unités de mesure depuis le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_uom_from_date
+msgid "Import UoM from date"
+msgstr "Importer les unités de mesure depuis le"
+
+#. module: gn_connector
+#: model:ir.ui.view,arch_db:gn_connector.gn_odoo_backend_form_view
+msgid "Import in background"
+msgstr "Importer en tâche de fond"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_account_income_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_account_income_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_account_income_id
+msgid "Income Account"
+msgstr "Compte de revenus"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_incoming_qty
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_incoming_qty
+msgid "Incoming"
+msgstr "Réception"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_industry_id
+msgid "Industry"
+msgstr "Secteur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_insert_date
+msgid "Insert date"
+msgstr "Date de création"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_default_code
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_default_code
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_ref
+msgid "Internal Reference"
+msgstr "Référence interne"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_barcode
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_barcode
+msgid "International Article Number used for product identification."
+msgstr "Numéro d'article international (IAN) utilisé pour identifier cet article."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_stock_inventory
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_stock_inventory
+msgid "Inventory Location"
+msgstr "Emplacement d'inventaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_valuation
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_valuation
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_valuation
+msgid "Inventory Valuation"
+msgstr "Valorisation de l'inventaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_invoice_warn
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_invoice_report
+msgid "Invoice report"
+msgstr "Rapport de facturation"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_invoice_ids
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_invoice_policy
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_invoice_policy
+msgid "Invoicing Policy"
+msgstr "Politique de facturation"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_is_follower
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_is_follower
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_is_follower
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_is_follower
+msgid "Is Follower"
+msgstr "Est un abonné"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_is_company
+msgid "Is a Company"
+msgstr "Est une Entreprise"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_customer
+msgid "Is a Customer"
+msgstr "Est un Client"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_supplier
+msgid "Is a Vendor"
+msgstr "Est un Fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_breast_pump
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_breast_pump
+msgid "Is a breast pump"
+msgstr "Tire-lait"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_followup_breast_pump
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_followup_breast_pump
+msgid "Is a follow-up model"
+msgstr "Modèle « à suivre »"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_manufacturer
+msgid "Is a manufacturer"
+msgstr "Est un fabricant"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_is_prescriber
+msgid "Is a prescriber ?"
+msgstr "Est prescripteur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_is_product_variant
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_is_product_variant
+msgid "Is a product variant"
+msgstr "Est une variante de produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_is_professional
+msgid "Is a professional ?"
+msgstr "Est un professionnel ?"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_is_educ_tool
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_is_educ_tool
+msgid "Is educationnal tool ?"
+msgstr "Est un outil pédagogique ?"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_function
+msgid "Job Position"
+msgstr "Poste Occupé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_journal_item_count
+msgid "Journal Items"
+msgstr "Écritures comptables"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_account_income_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_account_income_id
+msgid "Keep this field empty to use the default value from the product category."
+msgstr "Laissez ce champ vide pour utiliser la valeur par défaut de la catégorie d'article."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_lang
+msgid "Language"
+msgstr "Langue"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_last_post
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_last_post
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_last_post
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_last_post
+msgid "Last Message Date"
+msgstr "Date du dernier message"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery___last_update
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_write_uid
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_write_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_backend_import_product_data_from_date
+msgid "Last date of import product data"
+msgstr "Dernière date d'importation des données de produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_lastname
+msgid "Last name"
+msgstr "Nom"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr "Dernière notification marquée comme lue sur base du Calendrier"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "Dernière fois où les factures et les paiements ont été mis en correspondance pour ce partenaire. Cela se produit lorsqu'il n'y a pas au moins un débit non rapproché et un crédit non rapproché, ou lorsque vous cliquez sur « Terminé »."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Date de dernière correspondance des factures et paiements"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_parent_left
+msgid "Left Parent"
+msgstr "Parent gauche"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_attribute_line_ids
+msgid "Lines"
+msgstr "Lignes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_location_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_location_id
+msgid "Location"
+msgstr "Lieu"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_logo
+msgid "Logo File"
+msgstr "Logo"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_contact_id
+msgid "Main Contact"
+msgstr "Fiche principale"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_main
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_main
+msgid "Main image"
+msgstr "Image principale"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_in_crm
+msgid "Manage in CRM ?"
+msgstr "Gérer en CRM ?"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_manual_code
+msgid "Manual Reference"
+msgstr "Référence manuelle"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_valuation
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_valuation
+msgid ""
+"Manual: The accounting entries to value the inventory are not posted automatically.\n"
+"        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company."
+msgstr ""
+"Manuel : les écritures comptables pour valoriser l'inventaire ne sont pas publiées automatiquement.\n"
+" Automatisé : une écriture comptable est automatiquement créée pour valoriser l'inventaire lorsqu'un produit entre ou sort de l'entreprise."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_valuation
+msgid ""
+"Manual: The accounting entries to value the inventory are not posted automatically.\n"
+"        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
+"        "
+msgstr ""
+"Manuel : les écritures comptables pour valoriser l'inventaire ne sont pas publiées automatiquement.\n"
+" Automatisé : une écriture comptable est automatiquement créée pour valoriser l'inventaire lorsqu'un produit entre ou sort de l'entreprise.\n"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_service_type
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_service_type
+msgid ""
+"Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
+"Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
+"Create a task and track hours: Create a task on the sales order validation and track the work hours."
+msgstr ""
+"Définition manuelle des quantités sur la commande : facture selon les quantités saisies manuellement, sans création de compte analytique.\n"
+" Feuilles de temps sur les contrats : facture selon les heures passées en fonction de la feuille de temps liée.\n"
+" Créer une tâche et suivre les heures : crée une tâche à la validation de la commande et effectue un suivi du temps passé."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_manufacturer_pref
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_manufacturer_pref
+msgid "Manuf. Product Code"
+msgstr "Code du produit chez le fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_manufacturer_pname
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_manufacturer_pname
+msgid "Manuf. Product Name"
+msgstr "Nom du produit chez le fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_manufacturer_purl
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_manufacturer_purl
+msgid "Manuf. Product URL"
+msgstr "URL du produit chez le fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_manufacturer
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_manufacturer
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_manufacturing_date
+msgid "Manufacturing date"
+msgstr "Date de fabrication"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_main_medium
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_main_medium
+msgid "Medium image"
+msgstr "Image moyenne"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_image_medium
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_medium
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_medium
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_image_medium
+msgid "Medium-sized image"
+msgstr "Image de taille moyenne"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_image_medium
+msgid "Medium-sized image of the product. It is automatically resized as a 128x128px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or some kanban views."
+msgstr "Image de taille moyenne de l'article. Elle sera automatiquement redimensionnée à 128 x 128 px, en préservent le rapport hauteur/largeur, si l'image dépasse une de ces dimensions. Utilisez ce champ dans les vues formulaire ou certaines vues kanban."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Image de taille moyenne de ce contact. Elle est automatiquement redimensionnée en 128x128px, avec un ratio d'aspect préservé. Utiliser ce champ dans les vues formulaires ou dans certaines vues kanban."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_base_multi_image_image_image_medium
+msgid "Medium-sized image. It is automatically resized as a 128 x 128 px image, with aspect ratio preserved, only when the image exceeds one of those sizes. Use this field in form views or kanban views."
+msgstr "Image de taille moyenne. Elle est automatiquement réduite comme une image en 128x128 px, avec le ration conservé, seulement lorsque l'image dépasse l'une de ces tailles. Utilisez ce champ dans les vues formulaire ou kanban."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_invoice_warn_msg
+msgid "Message for Invoice"
+msgstr "Message pour Facture"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_sale_warn_msg
+msgid "Message for Sales Order"
+msgstr "Message sur les commandes de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sale_line_warn_msg
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sale_line_warn_msg
+msgid "Message for Sales Order Line"
+msgstr "Message à la ligne de commande de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr "Message pour Colisage"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_orderpoint_ids
+msgid "Minimum Stock Rules"
+msgstr "Règles de stock minimum"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_mobile
+msgid "Mobile"
+msgstr "Mobile"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_monthly_educ_tool
+msgid "Monthly educational tool"
+msgstr "Outils pédagogiques mensuels"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_date_deadline
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_date_deadline
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Date limite de l'Activité à Venir"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_summary
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_summary
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_summary
+msgid "Next Activity Summary"
+msgstr "Résumé d'activité suivant"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_type_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_type_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_type_id
+msgid "Next Activity Type"
+msgstr "Type d'Activités à Venir"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_no_export
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_no_export
+msgid "No export to Prestashop"
+msgstr "Ne pas exporter vers Prestashop"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_comment
+msgid "Notes"
+msgstr "Notes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_needaction_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_needaction_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_needaction_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_nb_childbirth
+msgid "Number of Childbirth"
+msgstr "Nombre de naissances"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_message_needaction_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_message_needaction_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_message_needaction_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Nombre de messages exigeant une action"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_products_count
+msgid "Number of products"
+msgstr "Nombre de produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_message_unread_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_message_unread_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_message_unread_counter
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_message_unread_counter
+msgid "Number of unread messages"
+msgstr "Nombre de messages non lus"
+
+#. module: gn_connector
+#: model:ir.actions.server,name:gn_connector.ir_cron_import_product_data_ir_actions_server
+#: model:ir.cron,cron_name:gn_connector.ir_cron_import_product_data
+#: model:ir.cron,name:gn_connector.ir_cron_import_product_data
+msgid "Odoo - Import products"
+msgstr "Odoo - Importation des produits"
+
+#. module: gn_connector
+#: model:ir.actions.server,name:gn_connector.ir_cron_import_simple_delivery_ir_actions_server
+#: model:ir.cron,cron_name:gn_connector.ir_cron_import_simple_delivery
+#: model:ir.cron,name:gn_connector.ir_cron_import_simple_delivery
+msgid "Odoo - Update simple deliveries"
+msgstr "Odoo - Mettre à jour les livraisons"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_backend
+msgid "Odoo Backend"
+msgstr "Odoo Backend"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_base_multi_image_image_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_breast_pump_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_address_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_brand_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_category_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_combination_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_combination_option_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_combination_option_value_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_image_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_product_template_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_prestashop_res_partner_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_attribute_line_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_attribute_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_attribute_value_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_brand_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_category_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_product_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_template_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_uom_categ_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_product_uom_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_res_partner_mom_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_res_partner_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_res_users_odoo_bind_ids
+msgid "Odoo Bindings"
+msgstr "Odoo Bindings"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_simple_delivery
+msgid "Odoo Simple Delivery -> Stock picking"
+msgstr "Odoo Simple Delivery -> Stock picking"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_simple_delivery_line
+msgid "Odoo Simple Delivery Line -> Stock move"
+msgstr "Odoo Simple Delivery Line -> Stock move"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_simple_delivery_line_odoo_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_simple_delivery_odoo_bind_ids
+msgid "Odoo bindings"
+msgstr "Odoo bindings"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_old_comment
+msgid "Old Comment"
+msgstr "Ancien commentaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_pro_product
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_pro_product
+msgid "Only for professional"
+msgstr "Réservé aux professionnels"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_opt_out
+msgid "Opt-Out"
+msgstr "Option de retrait"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_invoice_policy
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_invoice_policy
+msgid ""
+"Ordered Quantity: Invoice based on the quantity the customer ordered.\n"
+"Delivered Quantity: Invoiced based on the quantity the vendor delivered (time or deliveries)."
+msgstr ""
+"Quantités commandées : facturation basée sur les quantités commandées par le client.\n"
+"Quantités livrées : facturation basée sur les quantités que le fournisseur a livré (temps passé dans le cas de prestations)."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_other_contact_ids
+msgid "Others Positions"
+msgstr "Autres fonctions"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_outgoing_qty
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_outgoing_qty
+msgid "Outgoing"
+msgstr "Sortants"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_owner_id
+msgid "Owner"
+msgstr "Propriétaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_owner_model
+msgid "Owner Model"
+msgstr "Modèle lié"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_parent_id
+msgid "Parent Category"
+msgstr "Catégorie mère"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_parent_name
+msgid "Parent name"
+msgstr "Nom du parent"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_partner_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_odoo_id
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_description_partner
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_description_partner
+msgid "Partner description"
+msgstr "Description du partenaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_debit_limit
+msgid "Payable Limit"
+msgstr "Limite de débit"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_payment_token_ids
+msgid "Payment Tokens"
+msgstr "Tokens de Paiement"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_periodicity
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_periodicity
+msgid "Periodicity"
+msgstr "Périodicité"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_permanent_educ_tool_id
+msgid "Permanent educational tool"
+msgstr "Outil pédagogique mensuel"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_phone
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_picking_type
+msgid "Picking Type"
+msgstr "Type de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_postbox
+msgid "Postbox"
+msgstr "Postbox"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_breast_pump_power_type
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_breast_pump_power_type
+msgid "Power supply"
+msgstr "Alimentation"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_prestashop_address_bind_ids
+msgid "PrestaShop Address Bindings"
+msgstr "PrestaShop Address Bindings"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_prestashop_bind_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_prestashop_bind_ids
+msgid "PrestaShop Bindings"
+msgstr "PrestaShop Bindings"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_price
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_price
+msgid "Price"
+msgstr "Prix"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_attribute_value_price_extra
+msgid "Price Extra: Extra price for the variant with this attribute value on sale price. eg. 200 price extra, 1000 + 200 = 1200."
+msgstr ""
+"Supplément : supplément de prix pour la variante ayant cette valeur de caractéristique.\n"
+"Ex.: Supplément de prix de 200, 1000 + 200 = 1200"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_price_location_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_price_location_ids
+msgid "Price location"
+msgstr "Prix de location"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_pricelist_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_pricelist_id
+msgid "Pricelist"
+msgstr "Liste de prix"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_pricelist_item_ids
+msgid "Pricelist Item"
+msgstr "Élément de la liste de prix"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_item_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_item_ids
+msgid "Pricelist Items"
+msgstr "Éléments de la liste de prix"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_categ_id
+msgid "Pricing/Primary Category"
+msgstr "Catégorie principale / Prix"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_product
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_product_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_product_variant_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_product_variant_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_product_id
+msgid "Product"
+msgstr "Article"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_attribute
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_odoo_id
+msgid "Product Attribute"
+msgstr "Attribut de l'article"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_odoo_id
+msgid "Product Attribute Line"
+msgstr "Ligne d'attribut de produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_odoo_id
+msgid "Product Attribute Value"
+msgstr "Valeur de caractéristique d'article"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_attribute_line_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_attribute_line_ids
+msgid "Product Attributes"
+msgstr "Caractéristiques d'articles"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_brand_odoo_id
+msgid "Product Brand"
+msgstr "Marque de produit"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_category
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_odoo_id
+msgid "Product Category"
+msgstr "Catégorie d'article"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_packaging_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_packaging_ids
+msgid "Product Packages"
+msgstr "Emballages des produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_odoo_id
+msgid "Product Product"
+msgstr "Produit"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_template
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_line_product_tmpl_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_product_tmpl_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_odoo_id
+msgid "Product Template"
+msgstr "Modèle d'article"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_type
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_type
+msgid "Product Type"
+msgstr "Type d'article"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_uom
+msgid "Product Unit of Measure"
+msgstr "Unité de mesure d'article"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_odoo_id
+msgid "Product UoM"
+msgstr "UdM du produit"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_uom_categ
+msgid "Product UoM Categories"
+msgstr "Catégorie d'UdM"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_categ_odoo_id
+msgid "Product UoM Category"
+msgstr "Catégorie d'UdM des produits"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_product_variant_count
+msgid "Product Variant Count"
+msgstr "Nombre de variantes de produit"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_breast_pump_line
+msgid "Product on line is a breast pump ?"
+msgstr "Le produit sur la ligne est un tire-lait ?"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_stock_production
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_stock_production
+msgid "Production Location"
+msgstr "Emplacement de production"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_product_variant_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_product_variant_ids
+msgid "Products"
+msgstr "Articles"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_lst_price
+msgid "Public Price"
+msgstr "Prix public"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_pump_set
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_pump_set
+msgid "Pump set"
+msgstr "Set de pompage"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description_purchase
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description_purchase
+msgid "Purchase Description"
+msgstr "Description achat"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_uom_po_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_uom_po_id
+msgid "Purchase Unit of Measure"
+msgstr "Unité de mesure d'achat"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_qty_at_date
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_product_qty
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_qty_available
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_qty_available
+msgid "Quantity On Hand"
+msgstr "Quantité en stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_incoming_qty
+msgid ""
+"Quantity of planned incoming products.\n"
+"In a context with a single Stock Location, this includes goods arriving to this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
+msgstr ""
+"La quantité de produits entrants prévue.\n"
+"Dans le cas d'un emplacement de stock unique, il s'agit des marchandises arrivant à cet emplacement ou à l'un de ses enfants.\n"
+"Dans le cas d'un entrepôt unique, il s'agit des marchandises arrivant à l'emplacement de stock de cet entrepôt ou à l'un de ses enfants.\n"
+"Autrement, il s'agit des marchandises arrivant à n'importe quel emplacement de stock de type « interne »."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_outgoing_qty
+msgid ""
+"Quantity of planned outgoing products.\n"
+"In a context with a single Stock Location, this includes goods leaving this Location, or any of its children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock Location of this Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' type."
+msgstr ""
+"La quantité de produits sortants prévue.\n"
+"Dans le cas d'un emplacement de stock unique, il s'agit des marchandises quittant cet emplacement ou l'un de ses enfants.\n"
+"Dans le cas d'un entrepôt unique, il s'agit des marchandises quittant l'emplacement de stock de cet entrepôt ou l'un de ses enfants.\n"
+"Autrement, il s'agit des marchandises quittant n'importe quel emplacement de stock de type « interne »."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_qty_to_send
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_qty_to_send
+msgid "Quantity to send"
+msgstr "Quantité à envoyer"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_RPPS
+msgid "RPPS number"
+msgstr "Numéro RPPS"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_factor
+msgid "Ratio"
+msgstr "Ratio"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_expense_policy
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_expense_policy
+msgid "Re-Invoice Expenses"
+msgstr "Re-facturer les dépenses"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_code
+msgid "Reference"
+msgstr "Référence"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_code_prefix
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_code_prefix
+msgid "Reference Prefix"
+msgstr "Préfixe de la référence"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_reference_mask
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_reference_mask
+msgid ""
+"Reference mask for building internal references of a variant generated from this template.\n"
+"Example:\n"
+"A product named ABC with 2 attributes: Size and Color:\n"
+"Product: ABC\n"
+"Color: Red(r), Yellow(y), Black(b)  #Red, Yellow, Black are the attribute value, `r`, `y`, `b` are the corresponding code\n"
+"Size: L (l), XL(x)\n"
+"When setting Variant reference mask to `[Color]-[Size]`, the default code on the variants will be something like `r-l` `b-l` `r-x` ...\n"
+"If you like, You can even have the attribute name appear more than once in the mask. Such as,`fancyA/[Size]~[Color]~[Size]`\n"
+" When saved, the default code on variants will be something like \n"
+" `fancyA/l~r~l` (for variant with Color \"Red\" and Size \"L\")  `fancyA/x~y~x` (for variant with Color \"Yellow\" and Size \"XL\")\n"
+"Note: make sure characters \"[,]\" do not appear in your attribute name"
+msgstr ""
+"Masque de référence pour construire les références internes des variantes génénées depuis ce modèle.\n"
+"Exemple:\n"
+"Un produit nommé ABC avec 2 attributs : Taille et Couleur :\n"
+"Produit: ABC\n"
+"Couleur: Rouge(r), Jaune(j), Noir(n)  #Rouge, Jaune, Noir sont les valeurs d'attributes, `r`, `j`, `n` sont les codes correspondants\n"
+"Taille: L (l), XL(x)\n"
+"Quand vous mettez en place un masque de référence de la variante `[Couleur]-[Taille]`, le code par défaut de la variante sera quelque chose comme `r-l` `n-l` `r-x` ...\n"
+"Si vous préférez, vous pouvez aussi avoir le nom de l'attribut qui apparait plusieurs fois dans le masque. Comme,`fancyA/[Taille]~[Couleur]~[Taille]`\n"
+" Quand il est enregistré, le code par défaut sur la variante sera quelque chose comme \n"
+" `fancyA/l~r~l` (pour la variante avec Couleur \"Rouge\" et Taille \"L\")  `fancyA/x~y~x` (pour la variante avec Couleur \"Jaune\" et Taille\"XL\")\n"
+"Note : assurez-vous que les caractères \"[,]\" n'apparaissent pas dans le nom de l'attribut"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_owner_ref_id
+msgid "Referenced Owner"
+msgstr "Propriétaire référencé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_parent_id
+msgid "Related Company"
+msgstr "Société liée"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_sale_id
+msgid "Related Sale Order"
+msgstr "Commande liée"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_delivery_id
+msgid "Related delivery"
+msgstr "Livraison liée"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_reordering_max_qty
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_reordering_max_qty
+msgid "Reordering Max Qty"
+msgstr "Qté de réapprovisionnement max."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_reordering_min_qty
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_reordering_min_qty
+msgid "Reordering Min Qty"
+msgstr "Qté de réapprovisionnement min."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_nbr_reordering_rules
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_nbr_reordering_rules
+msgid "Reordering Rules"
+msgstr "Règles de réapprovisionnement"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_user_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_responsible_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_user_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_responsible_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_user_id
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_return_indications
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_return_indications
+msgid "Return indications"
+msgstr "Indications de retour"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_parent_right
+msgid "Right Parent"
+msgstr "Parent à droite"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_rounding
+msgid "Rounding Precision"
+msgstr "Précision d'arrondi"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_route_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_route_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_route_ids
+msgid "Routes"
+msgstr "Routes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_siret
+msgid "SIRET"
+msgstr "SIRET"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_description_sale
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_description_sale
+msgid "Sale Description"
+msgstr "Description vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_lst_price
+msgid "Sale Price"
+msgstr "Prix de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_product_pricelist
+msgid "Sale Pricelist"
+msgstr "Liste de prix de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_team_id
+msgid "Sales Channel"
+msgstr "Equipe de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_sale_order_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_sale_warn
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sale_line_warn
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sale_line_warn
+msgid "Sales Order Line"
+msgstr "Ligne de bons de commande"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_list_price
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_list_price
+msgid "Sales Price"
+msgstr "Prix de vente"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_user_id
+msgid "Salesperson"
+msgstr "Vendeur"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_product_brand_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_product_brand_id
+msgid "Select a brand for this product"
+msgstr "Sélectionnez une marque pour cet article"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_brand_partner_id
+msgid "Select a partner for this brand if any."
+msgstr "Sélectionnez un partenaire pour cette marque."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_categ_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_categ_id
+msgid "Select category for the current product"
+msgstr "Sélectionnez la catégorie de l'article actuel"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_customer_payment_mode_id
+msgid "Select the default payment mode for this customer."
+msgstr "Sélectionnez le mode de paiement par défaut pour ce client."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_supplier_payment_mode_id
+msgid "Select the default payment mode for this supplier."
+msgstr "Sélectionnez le mode de paiement par défaut pour ce fournisseur."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_sale_line_warn
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_sale_line_warn
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_invoice_warn
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_picking_warn
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_sale_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "Sélectionner l'option 'Avertissement' notifiera l'utilisateur avec le Message. Sélectionner 'Message Bloquant' lancera une exception avec le message et bloquera le flux. Le Message doit être encodé dans le champ suivant."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_self
+msgid "Self"
+msgstr "Self"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_sequence
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_sequence
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_sequence
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_sequence
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_sequence
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_name
+msgid "Serial number"
+msgstr "Numéro de série"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_removal_strategy_id
+msgid "Set a specific removal strategy that will be used regardless of the source location for this product category"
+msgstr "Indique une stratégie d'enlèvement spécifique qui sera utilisée quel que soit l'emplacement source pour cette catégorie d'articles"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_partner_share
+msgid "Share Partner"
+msgstr "Partenaire partagé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_partner_shipping_id
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_show_technical
+msgid "Show Technical"
+msgstr "Voir les propriétés techniques"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiration de la session de connexion"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_signup_token
+msgid "Signup Token"
+msgstr "Session de connexion"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_signup_type
+msgid "Signup Token Type"
+msgstr "Type de jeton de connexion"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_signup_valid
+msgid "Signup Token is Valid"
+msgstr "La session d'authentification est valide"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_signup_url
+msgid "Signup URL"
+msgstr "Url d'authentification"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_silent_breast_pump
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_silent_breast_pump
+msgid "Silent"
+msgstr "Silencieux"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_simple_delivery
+msgid "Simple Delivery"
+msgstr "Livraison"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_simple_delivery_line
+msgid "Simple Delivery line"
+msgstr "Ligne de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_odoo_id
+msgid "Simple delivery"
+msgstr "Livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_odoo_id
+msgid "Simple delivery line"
+msgstr "Ligne de livraison"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_main_small
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_main_small
+msgid "Small image"
+msgstr "Petite image"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_image_small
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_small
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_image_small
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_image_small
+msgid "Small-sized image"
+msgstr "Image de petite taille"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_image_small
+msgid "Small-sized image of the product. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Vignette de l'article. Elle sera automatiquement redimensionnée à 64 x 64 px, en préservent le rapport hauteur/largeur. Utilisez ce champ partout où une petite image est nécessaire."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Image de petite taille de ce contact. Elle est automatiquement redimensionnée en une image de 64x64px, avec un ratio d'aspect préservé. Utiliser ce champ partout où une petite image est nécessaire."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_base_multi_image_image_image_small
+msgid "Small-sized image. It is automatically resized as a 64 x 64 px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Image de petite taille. Elle est automatiquement réduite comme une image en 64x64 px, avec le ration conservé. Utilisez ce champ dans les vues formulaire ou kanban."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_specialism
+msgid "Specialism"
+msgstr "Spécialité"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_sale_ok
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_sale_ok
+msgid "Specify if the product can be selected in a sales order line."
+msgstr "Indique si l'article peut être mis dans une ligne de commande de vente."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_cost_method
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_cost_method
+msgid ""
+"Standard Price: The products are valued at their standard cost defined on the product.\n"
+"        Average Cost (AVCO): The products are valued at weighted average cost.\n"
+"        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first."
+msgstr ""
+"Prix standard : les produits sont valorisés suivant leur coût standard défini sur le produit.\n"
+" Coût moyen (AVCO) : les produits sont valorisés selon leur coût moyen pondéré.\n"
+" First In First Out (FIFO) : les produits sont valorisés en tenant compte du fait que ceux qui entrent d'abord dans l'entreprise en sortiront les premiers également."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_cost_method
+msgid ""
+"Standard Price: The products are valued at their standard cost defined on the product.\n"
+"        Average Cost (AVCO): The products are valued at weighted average cost.\n"
+"        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
+"        "
+msgstr ""
+"Prix standard : les produits sont valorisés suivant leur coût standard défini sur le produit.\n"
+" Coût moyen (AVCO) : les produits sont valorisés selon leur coût moyen pondéré.\n"
+" First In First Out (FIFO) : les produits sont valorisés en tenant compte du fait que ceux qui entrent d'abord dans l'entreprise en sortiront les premiers également.\n"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_hs_code
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_hs_code
+msgid "Standardized code for international shipping and goods declaration"
+msgstr "Code standardisé pour l'expédition international et la déclaration des marchandises"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_state
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_activity_state
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_activity_state
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_activity_state
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_state
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_state_id
+msgid "State"
+msgstr "État"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_state
+msgid "Status"
+msgstr "État"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_activity_state
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_activity_state
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Statut basé sur les activités\n"
+"En retard : la date d'échéance est déjà dépassée\n"
+"Aujourd'hui : la date d'activité est aujourd'hui\n"
+"Planifiée : activités futures"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_stock_fifo_manual_move_ids
+msgid "Stock Fifo Manual Move"
+msgstr "Stock Fifo Manual Move"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_stock_fifo_real_time_aml_ids
+msgid "Stock Fifo Real Time Aml"
+msgstr "Stock Fifo Real Time Aml"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_stock_account_input_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_stock_account_input
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_stock_account_input
+msgid "Stock Input Account"
+msgstr "Compte d'entrée en stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_stock_journal
+msgid "Stock Journal"
+msgstr "Journal de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_stock_move_ids
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_stock_account_output_categ_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_property_stock_account_output
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_property_stock_account_output
+msgid "Stock Output Account"
+msgstr "Compte de sortie de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_picking_warn
+msgid "Stock Picking"
+msgstr "Colisage"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_stock_quant_ids
+msgid "Stock Quant"
+msgstr "Quant de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_property_stock_valuation_account_id
+msgid "Stock Valuation Account"
+msgstr "Compte de valorisation de stock"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_storage
+msgid "Storage"
+msgstr "Stockage"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_street
+msgid "Street"
+msgstr "Rue"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_street3
+msgid "Street 3"
+msgstr "Street 3"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_street2
+msgid "Street2"
+msgstr "Rue 2"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_rt_suckling
+msgid "Suckling's rate"
+msgstr "Taux d'allaitemment"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_supplier_payment_mode_id
+msgid "Supplier Payment Mode"
+msgstr "Mode de règlement fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_vat
+msgid "TIN"
+msgstr "TVA"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_category_id
+msgid "Tags"
+msgstr "Étiquettes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_tax_group_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_tax_group_id
+msgid "Tax Group"
+msgstr "Groupe de taxes"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_vat
+msgid "Tax Identification Number. Fill it if the company is subjected to taxes. Used by the some of the legal statements."
+msgstr "Numéro de TVA. Remplissez cette case si cette société est soumise à la Taxe sur la Valeur Ajoutée."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_tax_group_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_tax_group_id
+msgid "Tax groups are used with some external system like Prestashop"
+msgstr "Groupes de taxes qui sont utilisées avec les systèmes externes comme Prestashop"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_pricelist_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_pricelist_id
+msgid "Technical field. Used for searching on pricelists, not stored in database."
+msgstr "Champ technique. Utilisé pour la recherche sur les listes de prix, non stocké en base de données."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_stock_move_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_stock_quant_ids
+msgid "Technical: used to compute quantities."
+msgstr "Technique : utilisé pour calculer les quantités."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_return_indications
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_return_indications
+msgid "Text sent to the customer when he returns its breast pump"
+msgstr "Texte envoyé à la cliente quand elle retourne son tire-lait"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_sale_delay
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_sale_delay
+msgid "The average delay in days between the confirmation of the customer order and the delivery of the finished products. It's the time you promise to your customers."
+msgstr "Le délai moyen en jours entre la confirmation de la commande de vente et la livraison des produits finis. C'est le délai promis à vos clients."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_uom_rounding
+msgid "The computed quantity will be a multiple of this value. Use 1.0 for a Unit of Measure that cannot be further split, such as a piece."
+msgstr "La quantité calculée sera un multiple de cette valeur. Utilisez 1,0 pour une unité de mesure indivisible telle que la pièce."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_account_expense_categ_id
+msgid "The expense is accounted for when a vendor bill is validated, except in anglo-saxon accounting with perpetual inventory valuation in which case the expense (Cost of Goods Sold account) is recognized at the customer invoice validation."
+msgstr "La dépense est comptabilisée lorsqu'une facture fournisseur est validée, sauf dans le cadre du système comptable anglo-saxon avec la valorisation perpétuelle de l'inventaire, auquel cas la dépense (compte du coût des biens vendus) est comptabilisée lors de la validation de la facture client."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_account_expense_id
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_account_expense_id
+msgid "The expense is accounted for when a vendor bill is validated, except in anglo-saxon accounting with perpetual inventory valuation in which case the expense (Cost of Goods Sold account) is recognized at the customer invoice validation. If the field is empty, it uses the one defined in the product category."
+msgstr "La dépense est comptabilisée lorsqu'une facture fournisseur est validée, sauf dans le cadre du système comptable anglo-saxon avec la valorisation perpétuelle de l'inventaire, auquel cas la dépense (compte du coût des biens vendus) est comptabilisée lors de la validation de la facture client. Si le champ est vide, l'élément défini dans la catégorie d'articles est utilisé."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_account_position_id
+msgid "The fiscal position will determine taxes and accounts used for the partner."
+msgstr "La position fiscale déterminera les taxes et les comptes comptables utilisés par le partneraire"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_user_id
+msgid "The internal user that is in charge of communicating with this contact if any."
+msgstr "L'utilisateur interne qui est en charge de la communication avec ce contact, le cas échéant."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_product_count
+msgid "The number of products under this category (Does not consider the children categories)"
+msgstr "Le nombre de produits dans cette catégorie (Ne tient pas compte des catégories enfants)"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "Le partenaire a au moins un débit et un crédit non lettré depuis le dernier lettrage des factures et des paiements."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr "Le fuseau horaire du partenaire, utilisé pour les valeurs de sortie de date et d'heure correcte à l'intérieur de rapports imprimés. Il est important de définir une valeur pour ce champ. Vous devez utiliser le même fuseau horaire qui est par ailleurs utilisé pour sélectionner et afficher les  valeurs de date et d'heure : le fuseau horaire de votre ordinateur."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_lst_price
+msgid "The sale price is managed from the product template. Click on the 'Variant Prices' button to set the extra attribute prices."
+msgstr "Le prix de vente est géré depuis le modèle de produit. Cliquez sur le bouton « Prix des variantes » pour définir les tarifs des attributs supplémentaires."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_volume
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_volume
+msgid "The volume in m3."
+msgstr "Le volume en m³"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_weight
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_weight
+msgid "The weight of the contents in Kg, not including any packaging, etc."
+msgstr "Le poids du contenu en kilogrammes, sans compter tout emballage, etc."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Ce compte de tiers remplacera le compte par défaut du partenaire. "
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Ce compte remplacera le compte de tiers par défaut pour ce partenaire."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_account_income_categ_id
+msgid "This account will be used when validating a customer invoice."
+msgstr "Ce compte sera utilisé lors de la validation d'une facture client."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_delivery_carrier_id
+msgid "This delivery method will be used when invoicing from picking."
+msgstr "Cette méthode de livraison sera utilisée lorsqu'on facturera sur base du colisage."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Ce champ contient l'image utilisée comme photo d'identité pour ce contact, limitée à 1024x1024px."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_image_variant
+msgid "This field holds the image used as image for the product variant, limited to 1024x1024px."
+msgstr "Ce champ contient l'image utilisée pour la variante d'article, limitée à 1024x1024 px."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_image
+msgid "This field holds the image used as image for the product, limited to 1024x1024px."
+msgstr "Ce champ contient l'image utilisée pour cet article, limitée à 1024x1024 px."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_breast_pump_power_type
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_compact_breast_pump
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_silent_breast_pump
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_breast_pump_power_type
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_compact_breast_pump
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_silent_breast_pump
+msgid "This field is used to display information on website for this model."
+msgstr "Ce champ est utilisé pour afficher des informations sur le site Web pour ce modèle."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_price_extra
+msgid "This is the sum of the extra price of all attributes"
+msgstr "Ceci est la somme des suppléments de prix de toutes les caractéristique."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "Ce délai de paiement sera utilisé à la place de celui par défaut pour les bons de commande et les factures fournisseurs"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_payment_term_id
+msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
+msgstr "Ce délai de paiement sera utilisé à la place de celui par défaut pour les commandes et les factures clients"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Cette liste de prix sera utilisée, à la place de la liste par défaut, pour les ventes faites au partenaire actuel."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_stock_customer
+msgid "This stock location will be used, instead of the default one, as the destination location for goods you send to this partner"
+msgstr "Cette emplacement de stock sera utilisée au lieu de celui par défaut en tant que l'emplacement de destination pour les biens que vous envoyez à ce partenaire."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_property_stock_supplier
+msgid "This stock location will be used, instead of the default one, as the source location for goods you receive from the current partner"
+msgstr "Cet emplacement de stock sera utilisé au lieu de celle par défaut, comme emplacement source pour les biens reçus du partenaire courant"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_stock_production
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_stock_production
+msgid "This stock location will be used, instead of the default one, as the source location for stock moves generated by manufacturing orders."
+msgstr "Cet emplacement de stock sera utilisé, à la place de l'emplacement par défaut, comme emplacement source des mouvements de stock générés par les ordres de fabrication."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_stock_inventory
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_stock_inventory
+msgid "This stock location will be used, instead of the default one, as the source location for stock moves generated when you do an inventory."
+msgstr "Cet emplacement de stock sera utilisé, à la place de l'emplacement par défaut, comme emplacement source pour les mouvements de stock générés quand vous faites un inventaire."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_tz
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_tz_offset
+msgid "Timezone offset"
+msgstr "Décalage horaire"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_title
+msgid "Title"
+msgstr "Civilité"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_total_invoiced
+msgid "Total Invoiced"
+msgstr "Total facturé"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_debit
+msgid "Total Payable"
+msgstr "Total dû"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_credit
+msgid "Total Receivable"
+msgstr "Total du compte client"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_credit
+msgid "Total amount this customer owes you."
+msgstr "Montant total que ce client vous doit."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Montant total à payer au fournisseur."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_category_total_route_ids
+msgid "Total routes"
+msgstr "Total des routes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_service_type
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_service_type
+msgid "Track Service"
+msgstr "Service de suivi"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_tracking
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_tracking
+msgid "Tracking"
+msgstr "Suivi"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_tracking_reference
+msgid "Tracking reference"
+msgstr "Référence de suivi"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_training
+msgid "Training"
+msgstr "Formation"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_uom_type
+msgid "Type"
+msgstr "Type"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_uid
+msgid "UID"
+msgstr "UID"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_uom_active
+msgid "Uncheck the active field to disable a unit of measure without deleting it."
+msgstr "Décochez le champ actif de désactiver une unité de mesure sans la supprimer."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_name
+msgid "Unique Serial Number"
+msgstr "N° de série unique"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_uom_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_uom_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_uom_name
+msgid "Unit of Measure"
+msgstr "Unité de mesure"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_unread
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_unread
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_unread
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_unread
+msgid "Unread Messages"
+msgstr "Messages non lus"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_message_unread_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_message_unread_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_message_unread_counter
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Compteur de messages non lus"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_simple_delivery_line_uom_id
+msgid "UoM"
+msgstr "UdM"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_update_date
+msgid "Update date"
+msgstr "Date de mise à jour"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_simple_delivery_check_amount
+msgid "Used to know the amount of the received check"
+msgstr "Utilisé pour connaître le montant du chèque reçu"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_type
+msgid "Used to select automatically the right address according to the context in sales and purchases documents."
+msgstr "Utilisé pour sélectionner automatiquement la bonne adresse selon le contexte des documents de vente et d'achats"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_user_ids
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_currency_id
+msgid "Utility field to express amount currency"
+msgstr "Champ utile pour indiquer le montant de la monnaie"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_valuation
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_valuation
+msgid "Valuation"
+msgstr "Valorisation"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_name
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_stock_value
+msgid "Value"
+msgstr "Valeur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_ids
+msgid "Values"
+msgstr "Valeurs"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_image_variant
+msgid "Variant Image"
+msgstr "Image de la variante"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_price_extra
+msgid "Variant Price Extra"
+msgstr "Prix supplémentaires des variantes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_variant_seller_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_variant_seller_ids
+msgid "Variant Seller"
+msgstr "Vendeur des variantes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_reference_mask
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_reference_mask
+msgid "Variant reference mask"
+msgstr "Masque de référence de la variante"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_attribute_value_product_ids
+msgid "Variants"
+msgstr "Variantes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_stock_supplier
+msgid "Vendor Location"
+msgstr "Adresse du vendeur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Conditions de Paiement du Vendeur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_supplier_taxes_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_supplier_taxes_id
+msgid "Vendor Taxes"
+msgstr "Taxes fournisseur"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_seller_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_seller_ids
+msgid "Vendors"
+msgstr "Fournisseurs"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_base_multi_image_image_product_variant_ids
+msgid "Visible in these variants"
+msgstr "Visible dans ces variantes"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_volume
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_volume
+msgid "Volume"
+msgstr "Volume"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_who_product
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_who_product
+msgid "WHO product"
+msgstr "Non commercialisable en direct"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_warehouse_id
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_warehouse_id
+msgid "Warehouse"
+msgstr "Entrepôt"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_warrantly_till
+msgid "Warrantly till"
+msgstr "Garantie jusqu'au"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_website
+msgid "Website"
+msgstr "Site Web"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_breast_pump_website_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_website_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_website_message_ids
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_website_message_ids
+msgid "Website Messages"
+msgstr "Messages du site web"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_breast_pump_website_message_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_website_message_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_website_message_ids
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_website_message_ids
+msgid "Website communication history"
+msgstr "Historique de communication du site web"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_res_partner_website
+msgid "Website of Partner or Company"
+msgstr "Site Web pour les Partenaires ou les Sociétés"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_product_weight
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_product_template_weight
+msgid "Weight"
+msgstr "Poids"
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_stock_account_input_categ_id
+msgid "When doing real-time inventory valuation, counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account set on the source location. This is the default value for all products in this category. It can also directly be set on each product"
+msgstr "Si la valorisation du stock est faite en temps réel, les écritures de contrepartie de tous les mouvements de stock entrants seront passées sur ce compte, sauf si un compte particulier est précisé pour l'emplacement source. C'est la valeur par défaut pour tous les articles de cette catégorie. Il est également possible de la préciser directement sur chaque article."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_stock_account_input
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_stock_account_input
+msgid "When doing real-time inventory valuation, counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account set on the source location. When not set on the product, the one from the product category is used."
+msgstr "Quand vous faites de la valorisation d'inventaire en temps réel, les écritures comptables de contrepartie pour toutes les entrées en stock seront faites dans ce compte, à moins qu'il y ait un compte de valorisation spécifique défini sur l'emplacement source. Quand il n'est pas défini sur l'article, celui de la catégorie est utilisé."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_stock_account_output_categ_id
+msgid "When doing real-time inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account, unless there is a specific valuation account set on the destination location. This is the default value for all products in this category. It can also directly be set on each product"
+msgstr "Quand vous choisissez la valorisation en temps-réel de l'inventaire, les écritures de contrepartie des sorties de stock seront comptabilisés dans ce compte, à moins qu'il y ait un compte de valorisation spécifique définit sur l'emplacement de destination. Ceci est la valeur par défaut pour tous les articles de cette catégorie. Il peut aussi directement être définit sur chaque article."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_product_property_stock_account_output
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_template_property_stock_account_output
+msgid "When doing real-time inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account, unless there is a specific valuation account set on the destination location. When not set on the product, the one from the product category is used."
+msgstr "Lorsque la valorisation du stock est faite en temps réel, les écritures de contrepartie de toutes les livraisons seront passées sur ce compte, à moins qu'un compte de valorisation particulier soit défini sur l'emplacement destination. Lorsqu'il n'est pas précisé sur l'article, celui de la catégorie d'article est utilisé."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_stock_journal
+msgid "When doing real-time inventory valuation, this is the Accounting Journal in which entries will be automatically posted when stock moves are processed."
+msgstr "Si vous valorisez les stocks en temps réel, les écritures générées par les mouvements de stock seront comptabilisées sur ce compte."
+
+#. module: gn_connector
+#: model:ir.model.fields,help:gn_connector.field_odoo_product_category_property_stock_valuation_account_id
+msgid "When real-time inventory valuation is enabled on a product, this account will hold the current value of the products."
+msgstr "Quand la valorisation en temps réel est activée sur un article, ce compte donnera la valorisation actuelle des articles."
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_wording_building
+msgid "Wording Building"
+msgstr "Wording Building"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_zip
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_type_account
+msgid "account's Type "
+msgstr "Type de compte"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_base_multi_image_image
+msgid "base_multi_image.image"
+msgstr "Image"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_base_multi_image_image
+msgid "odoo.base_multi_image.image"
+msgstr "odoo.base_multi_image.image"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_breast_pump
+msgid "odoo.breast.pump"
+msgstr "odoo.breast.pump"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_attribute
+msgid "odoo.product.attribute"
+msgstr "odoo.product.attribute"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_attribute_line
+msgid "odoo.product.attribute.line"
+msgstr "odoo.product.attribute.line"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_attribute_value
+msgid "odoo.product.attribute.value"
+msgstr "odoo.product.attribute.value"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_brand
+msgid "odoo.product.brand"
+msgstr "odoo.product.brand"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_category
+msgid "odoo.product.category"
+msgstr "odoo.product.category"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_product
+msgid "odoo.product.product"
+msgstr "odoo.product.product"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_template
+msgid "odoo.product.template"
+msgstr "odoo.product.template"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_uom
+msgid "odoo.product.uom"
+msgstr "odoo.product.uom"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_product_uom_categ
+msgid "odoo.product.uom.categ"
+msgstr "odoo.product.uom.categ"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_odoo_res_partner
+msgid "odoo.res.partner"
+msgstr "odoo.res.partner"
+
+#. module: gn_connector
+#: model:ir.model.fields,field_description:gn_connector.field_odoo_res_partner_permanent_educ_tool_ids
+msgid "permanent educ tools"
+msgstr "permanent educ tools"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_attribute_line
+msgid "product.attribute.line"
+msgstr "product.attribute.line"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_attribute_value
+msgid "product.attribute.value"
+msgstr "product.attribute.value"
+
+#. module: gn_connector
+#: model:ir.model,name:gn_connector.model_product_brand
+msgid "product.brand"
+msgstr "Marque d'article"

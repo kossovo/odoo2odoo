@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="gn_odoo_backend_form_view" model="ir.ui.view">
+        <field name="name">gn.odoo.backend.form.view</field>
+        <field name="model">odoo.backend</field>
+        <field name="inherit_id" ref="connector_odoo.view_odoo_backend_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="button_reset_to_draft" type="object" string="Reset to draft" states="production,checked" />
+                <button name="button_check_connection" type="object" string="Check connection" states="draft" />
+                <button name="synchronize_base_data" type="object" string="Synchronize base data" states="checked" />
+                <field name="state" widget="statusbar" readonly="True" />
+            </xpath>
+
+            <xpath expr="//field[@name='database']" position="after">
+                <field name="instance_code" />
+            </xpath>
+
+            <xpath expr="//sheet//page[@name='import']" position="inside">
+                <div>
+                    <label string="Import Products Data since" class="oe_inline" />
+                    <field name="import_product_data_from_date"
+                           class="oe_inline"
+                           nolabel="1" />
+                </div>
+                <button name="import_product_data"
+                        type="object"
+                        class="oe_highlight"
+                        string="Import in background" />
+                <div>
+                    <label string="Import Products since" class="oe_inline" />
+                    <field name="import_products_from_date"
+                           class="oe_inline"
+                           nolabel="1" />
+                </div>
+                <button name="import_products"
+                        type="object"
+                        class="oe_highlight"
+                        string="Import in background" />
+            </xpath>
+            <xpath expr="//sheet//page[@name='import']" position="inside">
+                <div>
+                    <label string="Import Simple delivery since" class="oe_inline" />
+                    <field name="import_simple_delivery_from_date"
+                           class="oe_inline"
+                           nolabel="1" />
+                </div>
+                <button name="import_simple_delivery"
+                        type="object"
+                        class="oe_highlight"
+                        string="Import in background" />
+            </xpath>
+            <xpath expr="//sheet//page[@name='import']" position="after">
+                <page name="technical" string="Technical details">
+                    <group>
+                        <field name="import_uom_from_date" />
+                        <field name="import_product_categ_from_date" />
+                        <field name="import_product_attribute_from_date" />
+                        <field name="import_product_attr_value_from_date" />
+                        <field name="import_product_brand_from_date" />
+                        <field name="import_product_template_from_date" />
+                        <field name="import_product_attr_line_from_date" />
+                        <field name="import_product_product_from_date" />
+                        <field name="import_product_image_from_date" />
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

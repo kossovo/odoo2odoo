@@ -1,0 +1,274 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* connector_odoo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-25 20:48+0000\n"
+"PO-Revision-Date: 2018-09-25 20:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: connector_odoo
+#: sql_constraint:odoo.binding:0
+msgid "A binding already exists wit the same distant Odoo ID"
+msgstr "Une relation existe déjà avec le même Odoo ID distant"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "API"
+msgstr "API"
+
+#. module: connector_odoo
+#: code:addons/connector_odoo/components/importer.py:186
+#, python-format
+msgid "Already up-to-date"
+msgstr "Déjà à jour"
+
+#. module: connector_odoo
+#: model:ir.ui.menu,name:connector_odoo.menu_odoo_backend
+msgid "Backends"
+msgstr "Backends"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "By clicking on the buttons,\n"
+"                                you will initiate the synchronizations\n"
+"                                with distant Odoo.\n"
+"                                Note that the import or exports\n"
+"                                won't be done directly,\n"
+"                                they will create 'Jobs'\n"
+"                                executed as soon as possible."
+msgstr "By clicking on the buttons,\n"
+"                                you will initiate the synchronizations\n"
+"                                with distant Odoo.\n"
+"                                Note that the import or exports\n"
+"                                won't be done directly,\n"
+"                                they will create 'Jobs'\n"
+"                                executed as soon as possible."
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_database
+msgid "Database"
+msgstr "Base de données"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_display_name
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_binding_display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: connector_odoo
+#: model:ir.model.fields,help:connector_odoo.field_odoo_backend_database
+msgid "Distant database"
+msgstr "Base de données distante"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_binding_id
+msgid "ID"
+msgstr "ID"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_binding_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_breast_pump_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_line_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_value_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_brand_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_category_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_product_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_template_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_uom_categ_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_uom_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_res_partner_external_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_simple_delivery_external_id
+msgid "ID on distant Odoo"
+msgstr "ID sur l'instance distante Odoo"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "Imports"
+msgstr "Imports"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend___last_update
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_binding___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_location
+msgid "Location"
+msgstr "Lieu"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "Main Configuration"
+msgstr "Configuration principale"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_name
+msgid "Name"
+msgstr "Nom"
+
+#. module: connector_odoo
+#: code:addons/connector_odoo/components/exporter.py:357
+#: code:addons/connector_odoo/components/exporter.py:362
+#, python-format
+msgid "Nothing to export."
+msgstr "Rien à exporter."
+
+#. module: connector_odoo
+#: model:ir.ui.menu,name:connector_odoo.menu_odoo_root
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: connector_odoo
+#: model:ir.actions.server,name:connector_odoo.ir_cron_export_product_categories_ir_actions_server
+#: model:ir.cron,cron_name:connector_odoo.ir_cron_export_product_categories
+#: model:ir.cron,name:connector_odoo.ir_cron_export_product_categories
+msgid "Odoo - Export product categories"
+msgstr "Odoo - Export des catégories de produits"
+
+#. module: connector_odoo
+#: model:ir.model,name:connector_odoo.model_odoo_backend
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_binding_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_breast_pump_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_line_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_attribute_value_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_brand_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_category_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_product_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_template_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_uom_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_product_uom_categ_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_res_partner_backend_id
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_simple_delivery_backend_id
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_tree
+msgid "Odoo Backend"
+msgstr "Odoo Backend"
+
+#. module: connector_odoo
+#: model:ir.actions.act_window,name:connector_odoo.action_odoo_backend
+msgid "Odoo Backends"
+msgstr "Odoo Backends"
+
+#. module: connector_odoo
+#: model:ir.model,name:connector_odoo.model_odoo_binding
+msgid "Odoo Binding (abstract)"
+msgstr "Odoo Binding (abstract)"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "Odoo Configuration"
+msgstr "Configuration Odoo"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "Once imported,\n"
+"                                some types of records,\n"
+"                                like the products or categories,\n"
+"                                need a manual review.\n"
+"                                You will find the list\n"
+"                                of the new records to review\n"
+"                                in the menu 'Connectors &gt; Checkpoint',"
+msgstr "Once imported,\n"
+"                                some types of records,\n"
+"                                like the products or categories,\n"
+"                                need a manual review.\n"
+"                                You will find the list\n"
+"                                of the new records to review\n"
+"                                in the menu 'Connectors &gt; Checkpoint',"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_password
+msgid "Password"
+msgstr "Mot de passe"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_port
+msgid "Port"
+msgstr "Port"
+
+#. module: connector_odoo
+#: model:ir.model.fields,help:connector_odoo.field_odoo_backend_port
+msgid "Pour to distant Odoo application"
+msgstr "Port de l'instance Odoo distante"
+
+#. module: connector_odoo
+#: code:addons/connector_odoo/components/deleter.py:17
+#, python-format
+msgid "Record %s deleted on distant Odoo"
+msgstr "Enregistrement %s supprimé sur l'instance Odoo distante"
+
+#. module: connector_odoo
+#: code:addons/connector_odoo/components/importer.py:177
+#, python-format
+msgid "Record does no longer exist in distant Odoo"
+msgstr "L'enregistrement n'existe plus sur l'instance Odoo distante"
+
+#. module: connector_odoo
+#: code:addons/connector_odoo/components/exporter.py:364
+#, python-format
+msgid "Record exported with ID %s on Magento."
+msgstr "Record exported with ID %s on Magento."
+
+#. module: connector_odoo
+#: model:ir.model.fields,help:connector_odoo.field_odoo_backend_location
+msgid "Url to distant Odoo application"
+msgstr "Url vers l'instance Odoo distante"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_username
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#. module: connector_odoo
+#: model:ir.model.fields,field_description:connector_odoo.field_odoo_backend_version
+msgid "Version"
+msgstr "Version"
+
+#. module: connector_odoo
+#: model:ir.model.fields,help:connector_odoo.field_odoo_backend_password
+msgid "Webservice password"
+msgstr "Mot de passe du WebService"
+
+#. module: connector_odoo
+#: model:ir.model.fields,help:connector_odoo.field_odoo_backend_username
+msgid "Webservice user"
+msgstr "Utilisateur du WebService"
+
+#. module: connector_odoo
+#: model:ir.ui.view,arch_db:connector_odoo.view_odoo_backend_form
+msgid "e.g. http://my.odoo.com"
+msgstr "e.g. http://my.odoo.com"
+

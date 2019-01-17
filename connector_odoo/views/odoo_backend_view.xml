@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_odoo_backend_form" model="ir.ui.view">
+        <field name="name">view.odoo.backend.form</field>
+        <field name="model">odoo.backend</field>
+        <field name="arch" type="xml">
+            <form string="Odoo Backend">
+                <header>
+                </header>
+                <sheet>
+                    <label for="name" class="oe_edit_only" />
+                    <h1>
+                        <field name="name" class="oe_inline" />
+                    </h1>
+                    <group name="odoo" string="Odoo Configuration">
+                        <notebook>
+                            <page string="API" name="api">
+                                <group colspan="4" col="4">
+                                    <field name="version" colspan="4" />
+                                    <field name="location" placeholder="e.g. http://my.odoo.com"
+                                           colspan="2" />
+                                    <field name="port" />
+                                    <field name="username" />
+                                    <field name="password" />
+                                    <field name="database" />
+                                </group>
+                            </page>
+                        </notebook>
+                    </group>
+                    <group name="main_configuration" string="Main Configuration">
+
+                    </group>
+                    <notebook>
+                        <page name="import" string="Imports">
+                            <p class="oe_grey oe_inline">
+                                By clicking on the buttons,
+                                you will initiate the synchronizations
+                                with distant Odoo.
+                                Note that the import or exports
+                                won't be done directly,
+                                they will create 'Jobs'
+                                executed as soon as possible.
+                            </p>
+                            <p class="oe_grey oe_inline">
+                                Once imported,
+                                some types of records,
+                                like the products or categories,
+                                need a manual review.
+                                You will find the list
+                                of the new records to review
+                                in the menu 'Connectors > Checkpoint',
+                            </p>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_odoo_backend_tree" model="ir.ui.view">
+        <field name="name">view.odoo.backend.tree</field>
+        <field name="model">odoo.backend</field>
+        <field name="arch" type="xml">
+            <tree string="Odoo Backend">
+                <field name="name" />
+                <field name="location" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_odoo_backend" model="ir.actions.act_window">
+        <field name="name">Odoo Backends</field>
+        <field name="res_model">odoo.backend</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_odoo_backend_tree" />
+    </record>
+
+</odoo>

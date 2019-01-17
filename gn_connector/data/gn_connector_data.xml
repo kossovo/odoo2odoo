@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+
+    <record model="ir.cron" id="ir_cron_import_product_data" forcecreate="True">
+        <field name="name">Odoo - Import products</field>
+        <field name="model_id" ref="model_odoo_backend" />
+        <field name="state">code</field>
+        <field name="active" eval="True" />
+        <field name="user_id" ref="base.user_root" />
+        <field name="interval_number">1</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False" />
+        <field name="code">model._scheduler_import_product_data()</field>
+    </record>
+
+    <record model="ir.cron" id="ir_cron_import_simple_delivery" forcecreate="True">
+        <field name="name">Odoo - Update simple deliveries</field>
+        <field name="model_id" ref="model_odoo_backend" />
+        <field name="state">code</field>
+        <field name="active" eval="True" />
+        <field name="user_id" ref="base.user_root" />
+        <field name="interval_number">5</field>
+        <field name="interval_type">minutes</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False" />
+        <field name="code">model._scheduler_import_simple_delivery()</field>
+    </record>
+
+</odoo>
